@@ -4,6 +4,7 @@
 int main(void)
 {
 	struct Stack a;
+	Init(&a, 10);
 	for (int i = 0; i < 10; i++)
 		a.push(&a, i);
 	for (int i = 10; i > 0; i--)
